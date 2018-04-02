@@ -22,11 +22,23 @@ Complete la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
-|            |             |
+|      Jesus David Monroy Garces      |     jdmonrog      |
+|      Helmer Andres Avendaño Vargas      |     helmeraac        |
 
 ## Discusión
+Se implementó la rasterización del triangulo con la libreria de [frames](https://github.com/VisualComputing/framesjs/releases) utilizando las coordenadas baricentricas, así mismo utilizamos de la misma referencia logramos obtener la documentación para realizar el shading(ver referencia). 
 
-Describa los resultados obtenidos. Qué técnicas de anti-aliasing y shading se exploraron? Adjunte las referencias. Discuta las dificultades encontradas.
+Para observar el correcto funcionamiento utilizar las siguientes teclas:
+* 'D': Rasterización
+* 'S': Shading
+
+Dificultades:
+* En un principio no nos funcionaba la libreria de frames en el sistema de Windows hasta que se realizó una actualización a la libreria. Por otra parte se nos dificultó identificar las coordenadas utilizadas para realizar la rasterización del triangulo
+
+Referencias:
+* https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
+* https://gist.github.com/esmitt/9848516
+* https://elcodigografico.wordpress.com/2014/03/29/coordenadas-baricentricas-en-triangulos/
 
 ## Entrega
 
